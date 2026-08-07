@@ -46,3 +46,8 @@ int main(){
         auto dentro=[&](int u,int v){
             return tin[u]<=tin[v]&&tin[v]<=tout[u];
         };
+        vector<int> qtd(n+1);
+        while(cand.size()>1){
+            fill(qtd.begin(),qtd.end(),0);
+            for(int v:cand) qtd[v]=1;
+            for(int i=n;i>=2;i--) qtd[pai[i]]+=qtd[i];
