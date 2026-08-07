@@ -70,3 +70,7 @@ int main(){
             }
             cand.swap(prox);
         }
+        cout<<"! "<<cand[0]<<endl;
+    }
+    return 0;
+}
