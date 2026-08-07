@@ -51,3 +51,14 @@ int main(){
             fill(qtd.begin(),qtd.end(),0);
             for(int v:cand) qtd[v]=1;
             for(int i=n;i>=2;i--) qtd[pai[i]]+=qtd[i];
+            int tam=cand.size();
+            int melhor=-1;
+            int valor=tam+1;
+            for(int u=1;u<=n;u++){
+                if(qtd[u]==0||qtd[u]==tam) continue;
+                int pior=max(qtd[u],tam-qtd[u]);
+                if(pior<valor){
+                    valor=pior;
+                    melhor=u;
+                }
+            }
