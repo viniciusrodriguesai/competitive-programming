@@ -39,3 +39,10 @@ int main(){
             tout[u]=tempo;
         };
         dfs(1);
+        vector<int> cand;
+        for(int i=1;i<=n;i++){
+            if(nivel[i]==d) cand.push_back(i);
+        }
+        auto dentro=[&](int u,int v){
+            return tin[u]<=tin[v]&&tin[v]<=tout[u];
+        };
