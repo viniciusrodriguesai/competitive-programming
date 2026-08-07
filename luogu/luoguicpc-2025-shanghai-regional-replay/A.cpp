@@ -62,3 +62,11 @@ int main(){
                     melhor=u;
                 }
             }
+            int resp=pergunta(melhor,d-nivel[melhor]);
+            vector<int> prox;
+            for(int v:cand){
+                bool in=dentro(melhor,v);
+                if((resp&&in)||(!resp&&!in)) prox.push_back(v);
+            }
+            cand.swap(prox);
+        }
