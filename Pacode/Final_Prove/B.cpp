@@ -22,7 +22,18 @@ int main() {
         int ans = -1;
 
         while (l <= r) {
-            }
-        }
+    int mid = (l + r) / 2;
+
+    if (v[mid] == x) {
+        ans = mid;
+        r = mid - 1;
+    }
+    else if (v[mid] < x) {
+        l = mid + 1;
+    }
+    else {
+        r = mid - 1;
+    }
+}
     }
 }
