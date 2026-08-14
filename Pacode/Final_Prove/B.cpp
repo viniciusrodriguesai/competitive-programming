@@ -9,9 +9,11 @@ int main() {
         cin >> x;
         v.push_back(x);
     }
-    for (int i = 0; i < q; i++) {
+    for(int i = 0; i<q;i++) {
         int x;
         cin >> x;
-        }
+        int l = 0;
+        int r = n - 1;
+        int ans = -1;
     }
 }
