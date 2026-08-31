@@ -23,6 +23,8 @@ int N;
 cin >> N; // Lemos apenas a quantidade de números primeiro
 
 for(i = 0; i < N;i++){
+    int numero;
+    cin >> numero;
 
 }
 
