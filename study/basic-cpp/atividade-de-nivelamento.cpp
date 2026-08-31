@@ -21,12 +21,16 @@ using namespace std;
 int main(){
 int N;
 cin >> N; // Lemos apenas a quantidade de números primeiro
-
-for(i = 0; i < N;i++){
+int soma = 0;
+for(int i = 0; i < N;i++){
     int numero;
     cin >> numero;
+    if(numero % 2 == 0){
+        soma += numero;
+    }
 
 }
-
+count << soma;
     return 0;
 }
+
