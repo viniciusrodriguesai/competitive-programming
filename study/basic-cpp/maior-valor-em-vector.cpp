@@ -21,5 +21,13 @@ int main(){
     int n;
     cin >> n;
 
+    vector <int>v;
+    for (int i = 1; i < n; i++) {
+    if (v[i] > maior) {
+        maior = v[i]; // Atualiza o campeão
+    }
+}
+
+
     return 0;
 }
