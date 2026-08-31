@@ -19,7 +19,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
-
+int N;
+cin >> N; // Lemos apenas a quantidade de números primeiro
 
 
     return 0;
