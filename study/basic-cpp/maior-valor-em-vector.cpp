@@ -22,7 +22,12 @@ int main(){
     cin >> n;
 
     vector <int>v;
-    for (int i = 1; i < n; i++) {
+    for(int i = 0; i < n ;i++){
+        cin >> v[i];
+        v.push_back(v);
+    }
+    int maior = v[0];
+    for (int i = 0; i < n; i++) {
     if (v[i] > maior) {
         maior = v[i]; // Atualiza o campeão
     }
