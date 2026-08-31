@@ -30,7 +30,7 @@ for(int i = 0; i < N;i++){
     }
 
 }
-count << soma;
+cout << soma;
     return 0;
 }
 
