@@ -31,8 +31,10 @@ int main(){
     if (v[i] > maior) {
         maior = v[i]; // Atualiza o campeão
     }
+
 }
 
+    cout << maior << " ";
 
     return 0;
 }
