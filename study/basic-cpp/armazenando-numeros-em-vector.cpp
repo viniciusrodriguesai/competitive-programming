@@ -25,7 +25,11 @@ int main(){
 
     for(int i; i < n ;i++){
         cin >> Numeros;
-        v.push_back(n)
+        v.push_back(Numeros)
+    }
+    for(int i= 0; i < n; i++){
+
+        cout << v[i]
     }
 
     return 0;
