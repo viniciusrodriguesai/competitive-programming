@@ -16,4 +16,5 @@
  * Explicação: os números pares são 2, 8 e 10.
  * A soma é 2 + 8 + 10 = 20.
  */
-
+#include <bits/stdc++.h>
+using namespace std;
