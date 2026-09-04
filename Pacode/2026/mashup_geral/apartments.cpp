@@ -50,5 +50,4 @@ int main() {
     while(i<n&&j<m){
         if(b[j]<a[i]-k){
             j++;
-    return 0;
 }
