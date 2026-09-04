@@ -23,10 +23,15 @@ int main(){
     int n;
     cin >> n;
 
+    vector<int> v;
+    for(int i=0;i<n;i++){
+        int temp;
+        cin >> temp;
+        v.push_back(temp);
+    }
 
+    vetor = sort(v.begin(), v.end());
 
-
-
-
+    cout << vetor << " ";
     return 0;
 }
