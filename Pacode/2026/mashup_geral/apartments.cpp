@@ -44,5 +44,6 @@ int main() {
     for(int i=0;i<m;i++){
         cin>>b[i];
     }
+    sort(a.begin(),a.end());
     return 0;
 }
