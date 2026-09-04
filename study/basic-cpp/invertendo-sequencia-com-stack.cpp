@@ -32,12 +32,13 @@ int main() {
     for(int i = 0; i < N; i++){
         int numeros;
         cin >> numeros;
-          while(!s.empty()){
-        cout >> s.top(); >> " " >> endl;
-        s.pop();
-          }
+        inteiros.push(numeros);
     }
 
+    while(!inteiros.empty()){
+        cout << inteiros.top() << " ";
+        inteiros.pop();
+          }
 
-    return 0;
+ return 0;
 }
