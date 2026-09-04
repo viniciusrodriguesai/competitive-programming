@@ -25,9 +25,20 @@
 
 #include <bits/stdc++.h>
 using namespace std;
-
 int main() {
     string dna;
     cin >> dna;
+    int atual =1;
+    int maior = 1 ;
+
+
+    for (int i = 1; i < dna.size();  i++){
+        if(dna[i] == dna[i - 1]){
+            atual++;
+            maior = max(maior , atual);
+        }else{
+        atual = 1}
+    }
+    cout << maior;
     return 0;
 }
