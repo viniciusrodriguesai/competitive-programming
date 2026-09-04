@@ -57,3 +57,4 @@ int main() {
         else{
             resposta++;
             i++;
+            j++;
