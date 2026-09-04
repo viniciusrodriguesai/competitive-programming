@@ -35,5 +35,6 @@ using namespace std;
 
 int main() {
     int quantidade_de_condenados;
+    cin >> quantidade_de_condenados;
     return 0;
 }
