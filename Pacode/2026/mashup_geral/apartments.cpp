@@ -60,3 +60,4 @@ int main() {
             j++;
         }
     }
+    cout<<resposta;
