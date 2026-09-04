@@ -24,7 +24,11 @@ int main() {
 
     pair<int,string>criatura1;
     pair<int,string>criatura2;
-    cin >> criatura1 >> criatura2;
+    cin >> criatura1.first >> criatura1.second;
+    cin >> criatura2.first >> criatura2.second;
+if (criatura1.first > criatura2.first) {
+
+}
 
     return 0;
 }
