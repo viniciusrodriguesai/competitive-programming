@@ -46,5 +46,6 @@ int main() {
     }
     sort(a.begin(),a.end());
     sort(b.begin(),b.end());
+    int i=0,j=0,resposta=0;
     return 0;
 }
