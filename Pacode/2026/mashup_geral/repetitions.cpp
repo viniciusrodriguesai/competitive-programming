@@ -37,7 +37,7 @@ int main() {
             atual++;
             maior = max(maior , atual);
         }else{
-        atual = 1}
+        atual = 1 ;}
     }
     cout << maior;
     return 0;
