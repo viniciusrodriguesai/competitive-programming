@@ -47,5 +47,6 @@ int main() {
     sort(a.begin(),a.end());
     sort(b.begin(),b.end());
     int i=0,j=0,resposta=0;
+    while(i<n&&j<m){
     return 0;
 }
