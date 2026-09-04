@@ -36,6 +36,7 @@ using namespace std;
 int main() {
     int quantidade_de_condenados;
     cin >> quantidade_de_condenados;
-    if(quantidade_de_condenados==2 || quantidade_de_condenados==3){
+    if(quantidade_de_condenados==2||quantidade_de_condenados==3){
+        cout<<"NO SOLUTION";
     return 0;
 }
