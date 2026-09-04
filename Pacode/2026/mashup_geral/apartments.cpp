@@ -38,5 +38,6 @@ int main() {
     int n,m,k;
     cin>>n>>m>>k;
     vector<int>a(n),b(m);
+    for(int i=0;i<n;i++){
     return 0;
 }
