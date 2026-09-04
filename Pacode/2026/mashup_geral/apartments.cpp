@@ -52,3 +52,4 @@ int main() {
             j++;
 }
         else if(b[j]>a[i]+k){
+            i++;
