@@ -40,4 +40,5 @@ int main() {
         cout<<"NO SOLUTION";
     return 0;
 }
+    for(int fugitivo=2;fugitivo<=quantidade_de_condenados;fugitivo+=2){
 }
