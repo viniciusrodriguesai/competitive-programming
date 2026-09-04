@@ -48,5 +48,6 @@ int main() {
     sort(b.begin(),b.end());
     int i=0,j=0,resposta=0;
     while(i<n&&j<m){
+        if(b[j]<a[i]-k){
     return 0;
 }
