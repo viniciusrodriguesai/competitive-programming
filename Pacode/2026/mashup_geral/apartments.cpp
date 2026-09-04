@@ -51,3 +51,4 @@ int main() {
         if(b[j]<a[i]-k){
             j++;
 }
+        else if(b[j]>a[i]+k){
