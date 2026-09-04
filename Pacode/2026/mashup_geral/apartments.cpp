@@ -49,5 +49,6 @@ int main() {
     int i=0,j=0,resposta=0;
     while(i<n&&j<m){
         if(b[j]<a[i]-k){
+            j++;
     return 0;
 }
