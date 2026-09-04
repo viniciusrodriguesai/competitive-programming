@@ -55,3 +55,4 @@ int main() {
             i++;
 }
         else{
+            resposta++;
