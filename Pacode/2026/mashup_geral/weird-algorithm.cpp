@@ -29,18 +29,16 @@
  * 3 10 5 16 8 4 2 1
  */
 
-#include <bits/stdc++.h>
-using namespace std;
-
-int main() {
-    long long pqp;
-    cin >> pqp;
-    while(pqp > 1){
-        cout <<pqp<<"";
-        bool eh_par == (pqp % 2 == 0);
-
-        if(eh_par)
-
+    #include <bits/stdc++.h>
+    using namespace std;
+    int main() {
+        long long kkk;cin>>kkk;
+        //faz a conta dessa bagaça
+        while (kkk>1) {
+                //ler a bosta do numero
+            cout<<kkk<<"";
+        //da o resultado final nessa bosta
+            kkk=(kkk%2==0)?(kkk/2):(kkk*3+1);
+        }
+        cout<<kkk;
     }
-    return 0;
-}
