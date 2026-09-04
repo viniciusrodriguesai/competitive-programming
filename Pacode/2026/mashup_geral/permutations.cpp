@@ -34,11 +34,12 @@
 using namespace std;
 
 int main() {
-    int quantidade_de_condenados;
-    cin >> quantidade_de_condenados;
-    if(quantidade_de_condenados==2||quantidade_de_condenados==3){
+    int n;
+    cin >> n;
+    if(n==2||n==3){
         cout<<"NO SOLUTION";
     return 0;
 }
-    for(int fugitivo=2;fugitivo<=quantidade_de_condenados;fugitivo+=2){
+    for(int i=2;i<=n;i+=2){
+        cout<<i<<" ";
 }
