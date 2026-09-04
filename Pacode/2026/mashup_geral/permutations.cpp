@@ -40,3 +40,4 @@ int main() {
         cout<<"NO SOLUTION";
     return 0;
 }
+}
