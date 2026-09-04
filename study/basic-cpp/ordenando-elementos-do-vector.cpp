@@ -30,8 +30,12 @@ int main(){
         v.push_back(temp);
     }
 
-    vetor = sort(v.begin(), v.end());
+    sort(v.begin(), v.end());
 
-    cout << vetor << " ";
+    for(int i = 0; i < n; i++){
+
+        cout << v[i] << " ";
+
+    }
     return 0;
 }
