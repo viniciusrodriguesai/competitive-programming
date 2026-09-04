@@ -30,8 +30,6 @@ int main() {
     cin >> dna;
     int atual =1;
     int maior = 1 ;
-
-
     for (int i = 1; i < dna.size();  i++){
         if(dna[i] == dna[i - 1]){
             atual++;

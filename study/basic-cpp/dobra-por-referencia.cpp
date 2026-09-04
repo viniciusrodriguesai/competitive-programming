@@ -25,9 +25,9 @@ using namespace std;
 
     }
 int main() {
-    int N = 10
+    cin >> N;
     dobra(N);
-    cout >> N;
+    cout << N;
 
     return 0;
 }
