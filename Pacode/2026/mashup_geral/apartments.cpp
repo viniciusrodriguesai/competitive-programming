@@ -56,3 +56,4 @@ int main() {
 }
         else{
             resposta++;
+            i++;
