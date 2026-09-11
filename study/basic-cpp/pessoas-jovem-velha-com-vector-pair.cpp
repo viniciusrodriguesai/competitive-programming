@@ -36,7 +36,6 @@ int main() {
 
     sort(lista.begin(), lista.end());
 
-
     cout << lista[0].second << " " << lista[n - 1].second << endl;
 
     return 0;
