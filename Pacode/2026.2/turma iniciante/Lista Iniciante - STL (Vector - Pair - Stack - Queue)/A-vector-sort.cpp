@@ -35,7 +35,9 @@ int main() {
 
     vector <int> vetor;
 
-    sort(vetor.begin(), vetor.end())
+    sort(vetor.begin(), vetor.end());
+
+
 
     return 0;
 }
