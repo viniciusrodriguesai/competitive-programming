@@ -31,9 +31,16 @@ using namespace std;
 int main() {
     long long Numero,Numeros;
 
-    cin >> Numero >> Numeros;
+    cin >> Numero ;
 
-    vector <int> vetor;
+        vector <int> vetor;
+
+
+    for(int i=0;i < Numero; i++){
+        cin >> Numeros;
+        vetor.push_back(Numeros);
+
+    }
 
     sort(vetor.begin(), vetor.end());
 
