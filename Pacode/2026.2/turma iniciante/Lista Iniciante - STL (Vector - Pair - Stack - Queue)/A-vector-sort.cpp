@@ -44,7 +44,7 @@ int main() {
     sort(vetor.begin(), vetor.end());
 
         for(int i=0;i < Numero; i++){
-            cout << vetor[i];
+            cout << vetor[i] << " ";
         }
 
 
