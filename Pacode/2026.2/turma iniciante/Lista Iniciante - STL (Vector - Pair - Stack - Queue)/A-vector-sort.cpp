@@ -29,6 +29,13 @@
 using namespace std;
 
 int main() {
-    // Escreva sua solucao aqui.
+    long long Numero,Numeros;
+
+    cin >> Numero >> Numeros;
+
+    vector <int> vetor;
+
+    sort(vetor.begin(), vetor.end())
+
     return 0;
 }
