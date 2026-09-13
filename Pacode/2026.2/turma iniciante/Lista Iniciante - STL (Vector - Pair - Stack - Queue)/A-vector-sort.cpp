@@ -37,6 +37,7 @@ int main() {
 
     sort(vetor.begin(), vetor.end());
 
+    cout << vetor;
 
 
     return 0;
