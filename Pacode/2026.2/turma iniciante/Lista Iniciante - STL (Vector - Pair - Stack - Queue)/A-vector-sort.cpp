@@ -41,10 +41,13 @@ int main() {
         vetor.push_back(Numeros);
 
     }
-
     sort(vetor.begin(), vetor.end());
 
-    cout << vetor;
+        for(int i=0;i < Numero; i++){
+            cout << vetor[i]
+        }
+
+
 
 
     return 0;
