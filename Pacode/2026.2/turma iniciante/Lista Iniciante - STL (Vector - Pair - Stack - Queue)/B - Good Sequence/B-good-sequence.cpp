@@ -67,18 +67,32 @@
 using namespace std;
 
 int main() {
-    long long Numeros, Numero;
+    int N;
+    cin >> N;
 
-    cin >> Numeros, Numero;
+    long long contador = 1;
 
-    long long contador = 0;
+    vector<int> vetor;
 
-    vector <int> vetor;
+    for (int i = 0; i < N; i++) {
+        int numero;
+        cin >> numero;
+        vetor.push_back(numero);
+    }
 
-    for(int i = 0 ; i < Numero; i ++ ){
+    sort(vetor.begin(), vetor.end());
 
-        vetor[i]
 
+    for(int i = 0; i + 1 < N; i++){
+        if(vetor[i]== vetor[i + 1]){
+             contador += 1;
+    }
+    else{
+        if (contador == vetor[i]) {
+            // Este grupo ja esta bom: nenhuma remocao.
+        }
+        contador = 1;
+    }
     }
     return 0;
 }
