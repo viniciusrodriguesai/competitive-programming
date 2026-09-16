@@ -1,0 +1,11 @@
+{
+  "terminal.integrated.env.windows": {
+    "PATH": "C:\\Program Files\\CodeBlocks\\MinGW\\bin;${env:PATH}"
+  },
+  "c-cpp-compile-run.c-compiler": "C:\\Program Files\\CodeBlocks\\MinGW\\bin\\gcc.exe",
+  "c-cpp-compile-run.cpp-compiler": "C:\\Program Files\\CodeBlocks\\MinGW\\bin\\g++.exe",
+  "c-cpp-compile-run.cpp-flags": "-std=c++17 -Wall -Wextra -g3",
+  "c-cpp-compile-run.debugger-path": "C:\\Program Files\\CodeBlocks\\MinGW\\bin\\gdb.exe",
+  "c-cpp-compile-run.output-location": "${workspaceFolder}/.cache/cpp-run",
+  "c-cpp-compile-run.mirror-output-location": true
+}
