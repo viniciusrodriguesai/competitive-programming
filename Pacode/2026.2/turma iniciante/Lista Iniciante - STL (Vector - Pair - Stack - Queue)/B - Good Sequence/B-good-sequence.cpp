@@ -82,17 +82,35 @@ int main() {
 
     sort(vetor.begin(), vetor.end());
 
+    int remocao = 0;
 
-    for(int i = 0; i + 1 < N; i++){
-        if(vetor[i]== vetor[i + 1]){
-             contador += 1;
-    }
-    else{
-        if (contador == vetor[i]) {
-            // Este grupo ja esta bom: nenhuma remocao.
+    for (int i = 0; i + 1 < N; i++) {
+        if (vetor[i] == vetor[i + 1]) {
+            contador += 1;
         }
-        contador = 1;
+        else {
+            if (contador == vetor[i]) {
+            }
+            else if (contador < vetor[i]) {
+                remocao += contador;
+            }
+            else {
+                remocao += contador - vetor[i];
+            }
+            contador = 1;
+        }
     }
+
+    int ultimoValor = vetor[N - 1];
+    if (contador == ultimoValor) {
     }
+    else if (contador < ultimoValor) {
+        remocao += contador;
+    }
+    else {
+        remocao += contador - ultimoValor;
+    }
+
+    cout << remocao;
     return 0;
 }
