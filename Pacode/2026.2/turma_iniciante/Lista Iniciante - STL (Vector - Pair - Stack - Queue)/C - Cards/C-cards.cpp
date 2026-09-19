@@ -41,6 +41,11 @@
 using namespace std;
 
 int main() {
-    long long
+    long long n;
+    string s;
+    cin >> s;
+
+    
+
     return 0;
 }
