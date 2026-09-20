@@ -4,7 +4,11 @@ using namespace std;
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-    int numeros;
+    int quantidade;
+    cin >> quantidade;
+    for(int i = 0; i < quantidade; i++){
+        
+    }
 
     return 0;
 }
