@@ -10,6 +10,7 @@ int main() {
     for(int i = 0; i < quantidade; i++){
         string nome; 
         cin >> nome;
+        set.insert(nome);
     }
 
     return 0;
