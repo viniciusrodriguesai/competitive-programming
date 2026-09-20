@@ -10,6 +10,14 @@ int main() {
     for(int i = 0; i < quantidade; i++){
         int operacao, posicao,  numero; 
         cin >> operacao ;
+        if(operacao == 0){
+            cin >> posicao;
+            cin >> numero;
+        }if(posicao == 0){
+
+        }else if(posicao == 1){
+            
+        }
     }
 
 
