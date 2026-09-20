@@ -16,7 +16,7 @@ int main() {
             if(posicao == 0){
                 numeros.push_front(numero);
         }else if(posicao == 1){
-            numero.push_back(numero);
+            numeros.push_back(numero);
         }
         }
     }
