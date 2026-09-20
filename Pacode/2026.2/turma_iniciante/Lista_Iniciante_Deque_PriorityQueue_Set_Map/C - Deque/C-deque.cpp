@@ -8,8 +8,8 @@ int main() {
     cin >> quantidade;
     deque <int> numeros;
     for(int i = 0; i < quantidade; i++){
-        int operacao,int posicao, int numero; 
-        cin >> operacao >> posicao >> numero;
+        int operacao, posicao,  numero; 
+        cin >> operacao ;
     }
 
 
