@@ -1,0 +1,26 @@
+E - gacha: online-judge style test report
+==========================================
+Compiler: g++ -std=c++17 -O2 -Wall -Wextra -pedantic
+Oracle: Python len(set(names))
+Per-run time limit checked: 2.0 s
+
+Deterministic tests:
+PASS | sample 1 | N=3 | output=2 | 0.119s
+PASS | sample 2 | N=5 | output=1 | 0.017s
+PASS | sample 3 | N=4 | output=4 | 0.019s
+PASS | minimum N and length | N=1 | output=1 | 0.020s
+PASS | maximum name length | N=3 | output=2 | 0.017s
+PASS | prefixes are distinct | N=5 | output=5 | 0.018s
+PASS | alphabet extremes | N=4 | output=4 | 0.015s
+
+Stress and limit tests:
+PASS | sorted unique names | N=10000 | output=10000 | 0.020s
+PASS | reverse-sorted unique names | N=10000 | output=10000 | 0.022s
+PASS | maximum N, one distinct name | N=200000 | output=1 | 0.038s
+PASS | maximum N, all names distinct | N=200000 | output=200000 | 0.135s
+PASS | maximum N, repeated pool | N=200000 | output=12345 | 0.077s
+
+Randomized differential tests:
+PASS | 500/500 cases | max runtime=0.065s
+
+RESULT: ALL 512 TESTS PASSED
