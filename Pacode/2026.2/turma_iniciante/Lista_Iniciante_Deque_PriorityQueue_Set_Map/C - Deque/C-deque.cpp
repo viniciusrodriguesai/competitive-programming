@@ -14,9 +14,9 @@ int main() {
             cin >> posicao;
             cin >> numero;
             if(posicao == 0){
-
+                numeros.push_front(numero);
         }else if(posicao == 1){
-            
+            numero.push_back(numero);
         }
         }
     }
