@@ -7,6 +7,7 @@ int main() {
     int quantidade;
     cin >> quantidade;
     for(int i = 0; i < quantidade; i++){
+        string nome; 
         
     }
 
