@@ -23,7 +23,8 @@ int main() {
                     fila.pop();
                 }
             }
-        }cout << soma << endl;
+        }
+        cout << soma << endl;
     }
     return 0;
 }
