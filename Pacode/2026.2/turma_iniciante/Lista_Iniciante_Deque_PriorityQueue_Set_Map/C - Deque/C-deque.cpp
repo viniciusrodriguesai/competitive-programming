@@ -13,10 +13,11 @@ int main() {
         if(operacao == 0){
             cin >> posicao;
             cin >> numero;
-        }if(posicao == 0){
+            if(posicao == 0){
 
         }else if(posicao == 1){
             
+        }
         }
     }
 
