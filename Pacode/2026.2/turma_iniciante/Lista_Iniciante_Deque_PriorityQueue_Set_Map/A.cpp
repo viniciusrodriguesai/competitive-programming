@@ -7,13 +7,17 @@ int main() {
     cin.tie(nullptr);
     int numero;
     string comando;
-    priority_queue<int> pq;
+    priority_queue<int> fila;
     cin >> comando;
     while(comando != "end" ){
             if(comando == "insert"){
-                        cin >> comando;
-
-            }
+                    cin >> numero;
+                    fila.push(numero);
+            }else if (comando == "extract"){
+                cout << fila.top() << endl;
+                fila.pop();
+            }cin >> comando;
+            
     }
     return 0;
 }
