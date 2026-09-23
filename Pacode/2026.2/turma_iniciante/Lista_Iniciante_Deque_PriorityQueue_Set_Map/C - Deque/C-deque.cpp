@@ -18,6 +18,17 @@ int main() {
         }else if(posicao == 1){
             numeros.push_back(numero);
         }
+        }else if(operacao == 1){
+            cin >> posicao;
+            cout << numeros[posicao];
+              }
+        else if(operacao == 2){
+  
+            if(posicao == 0){
+                numeros.pop_front(numero);
+            }else if(posicao == 1){
+                numeros.pop_back(numero);
+            }
         }
     }
 
