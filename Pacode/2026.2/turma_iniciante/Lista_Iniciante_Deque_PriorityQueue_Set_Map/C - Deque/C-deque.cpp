@@ -20,7 +20,7 @@ int main() {
         }
         }else if(operacao == 1){
             cin >> posicao;
-            cout << numeros[posicao] << " ";
+            cout << numeros[posicao] << endl;
               }
         else if(operacao == 2){
             cin >> posicao;
