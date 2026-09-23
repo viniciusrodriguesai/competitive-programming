@@ -23,7 +23,7 @@ int main() {
             cout << numeros[posicao];
               }
         else if(operacao == 2){
-  
+            cin >> posicao;
             if(posicao == 0){
                 numeros.pop_front(numero);
             }else if(posicao == 1){
