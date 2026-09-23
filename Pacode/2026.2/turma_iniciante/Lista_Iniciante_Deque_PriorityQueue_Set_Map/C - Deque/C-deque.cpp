@@ -20,14 +20,14 @@ int main() {
         }
         }else if(operacao == 1){
             cin >> posicao;
-            cout << numeros[posicao];
+            cout << numeros[posicao] << " ";
               }
         else if(operacao == 2){
             cin >> posicao;
             if(posicao == 0){
-                numeros.pop_front(numero);
+                numeros.pop_front();
             }else if(posicao == 1){
-                numeros.pop_back(numero);
+                numeros.pop_back();
             }
         }
     }
